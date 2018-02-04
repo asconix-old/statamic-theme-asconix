@@ -730,4 +730,4 @@ $(window).bind('resize', function() {
     
     resizeTimer = setTimeout(collage, 200);
 });
-//# sourceMappingURL=redwood.js.map
+//# sourceMappingURL=asconix.js.map

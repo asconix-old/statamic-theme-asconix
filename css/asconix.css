@@ -376,24 +376,24 @@ code {
   vertical-align: bottom;
   opacity: 0; }
 
-.navbar-redwood {
+.navbar-asconix {
   background: #fff;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 0;
   min-height: 60px; }
-  .navbar-redwood .nav {
+  .navbar-asconix .nav {
     color: #b8b8b8;
     font-family: "Lato", sans-serif;
     font-size: 12px;
     overflow: hidden; }
-  .navbar-redwood .nav a {
+  .navbar-asconix .nav a {
     color: #b8b8b8;
     letter-spacing: .1em;
     margin-left: 32px;
     padding: 20px 0;
     text-transform: uppercase;
     -webkit-backface-visibility: hidden; }
-    .navbar-redwood .nav a:before {
+    .navbar-asconix .nav a:before {
       position: absolute;
       left: 0;
       bottom: -3px;
@@ -403,37 +403,37 @@ code {
       content: '';
       transition: all 100ms ease;
       opacity: 0; }
-    .navbar-redwood .nav a:hover, .navbar-redwood .nav a:focus {
+    .navbar-asconix .nav a:hover, .navbar-asconix .nav a:focus {
       background: transparent; }
-      .navbar-redwood .nav a:hover:before, .navbar-redwood .nav a:focus:before {
+      .navbar-asconix .nav a:hover:before, .navbar-asconix .nav a:focus:before {
         opacity: 1;
         bottom: 0; }
-  .navbar-redwood .nav .active a {
+  .navbar-asconix .nav .active a {
     color: #3c3c3c;
     font-weight: bold;
     position: relative; }
-    .navbar-redwood .nav .active a:before {
+    .navbar-asconix .nav .active a:before {
       bottom: 0;
       height: 2px;
       background: #3c3c3c;
       opacity: 1; }
-  .navbar-redwood .navbar-brand {
+  .navbar-asconix .navbar-brand {
     color: #3c3c3c;
     font-weight: 900;
     font-size: 32px;
     height: 60px;
     padding: 20px 15px;
     letter-spacing: -.05em; }
-  .navbar-redwood .navbar-form {
+  .navbar-asconix .navbar-form {
     margin-top: 13px; }
-  .navbar-redwood .search {
+  .navbar-asconix .search {
     border-radius: 32px;
     font-family: "Lato", sans-serif;
     font-size: 14px;
     width: 180px;
     display: block;
     transition: width 220ms ease; }
-  .navbar-redwood .search.grow {
+  .navbar-asconix .search.grow {
     width: 300px; }
 
 .navbar-toggle {
@@ -546,4 +546,4 @@ img.zoom-img {
 .zoom-overlay-transitioning {
   cursor: default; }
 
-/*# sourceMappingURL=redwood.css.map */
+/*# sourceMappingURL=asconix.css.map */
