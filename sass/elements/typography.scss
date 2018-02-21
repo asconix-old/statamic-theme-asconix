@@ -28,7 +28,7 @@ h6 {
 }
 
 .special {
-    font-family: $font_serif;
+    font-family: $font_headlines;
     margin-bottom: $gap * 2;
     small {
         display: block;
@@ -65,7 +65,7 @@ section {
 
 article.content {
 	p {
-		font-family: $font_serif;
+		font-family: $font_sans;
 		font-size: 18px;
 		line-height: $gap;
 		margin: 0 0 $gap;
@@ -160,7 +160,7 @@ article.content {
 	}
 
 	p.caption {
-		font-family: $font_serif;
+		font-family: $font_headlines;
 		font-style: italic;
 		font-size: 14px;
 		text-align: center;
