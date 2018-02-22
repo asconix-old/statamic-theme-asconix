@@ -1,9 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);
-@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+@import url(https://fonts.googleapis.com/css?family=Cabin);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:700);
 body {
   background: #fff;
   color: #3c3c3c;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Cabin", sans-serif;
   font-size: 18px;
 }
 
@@ -26,7 +26,7 @@ body {
 
 .regular {
   padding: 64px 16px;
-  max-width: 732px;
+  max-width: 1432px;
   margin: 0 auto;
 }
 
@@ -76,7 +76,7 @@ body {
 }
 
 .hero header h2 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-style: italic;
   -webkit-font-smoothing: antialiased;
 }
@@ -102,7 +102,7 @@ body {
 .hero .meta .name {
   color: #fff;
   margin: 5px 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-style: italic;
   font-size: 18px;
   text-transform: normal;
@@ -153,7 +153,7 @@ footer.page {
 }
 
 footer.page p.copyright {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Cabin", sans-serif;
   font-weight: 900;
   font-size: 14px;
 }
@@ -179,10 +179,10 @@ footer.page p.tribute {
 
 .read-more {
   margin-top: 96px;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Cabin", sans-serif;
   text-align: center;
   display: block;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Cabin", sans-serif;
   color: #b8b8b8;
   font-size: 13px;
   text-transform: uppercase;
@@ -194,7 +194,7 @@ footer.page p.tribute {
 }
 
 input.giant {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Cabin", sans-serif;
   font-size: 60px;
   font-weight: 300;
   color: #3c3c3c;
@@ -222,33 +222,33 @@ h4,
 h5,
 h6 {
   font-family: "Roboto Condensed", sans-serif;
-  font-weight: 900;
+  font-weight: 400;
   letter-spacing: -.025em;
   margin: 0 0 32px -1px;
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 40px;
 }
 
 h2 {
-  font-size: 42px;
+  font-size: 32px;
 }
 
 h3 {
-  font-size: 28px;
+  font-size: 24px;
 }
 
 h4 {
-  font-size: 20px;
-}
-
-h5 {
   font-size: 16px;
 }
 
-h6 {
+h5 {
   font-size: 12px;
+}
+
+h6 {
+  font-size: 10px;
   letter-spacing: .15em;
   text-transform: uppercase;
 }
@@ -277,13 +277,13 @@ h6 em {
 }
 
 .special {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   margin-bottom: 64px;
 }
 
 .special small {
   display: block;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Cabin", sans-serif;
   color: #b8b8b8;
   font-size: 13px;
   text-transform: uppercase;
@@ -309,7 +309,7 @@ section header h2 {
 }
 
 article.content p {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Cabin", sans-serif;
   font-size: 18px;
   line-height: 32px;
   margin: 0 0 32px;
@@ -401,7 +401,7 @@ article.content img.oversized {
 }
 
 article.content p.caption {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-style: italic;
   font-size: 14px;
   text-align: center;
@@ -427,7 +427,7 @@ article.content iframe {
 }
 
 .block p {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Cabin", sans-serif;
   font-size: 18px;
   line-height: 1.5;
   font-weight: 300;
@@ -460,7 +460,7 @@ article.content iframe {
 
 .meta {
   color: #b8b8b8;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Cabin", sans-serif;
   font-size: 12px;
   margin: 0 0 64px;
 }
@@ -515,7 +515,7 @@ code {
 
 .navbar-asconix .nav {
   color: #b8b8b8;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Cabin", sans-serif;
   font-size: 12px;
   overflow: hidden;
 }
@@ -580,7 +580,7 @@ code {
 
 .navbar-asconix .search {
   border-radius: 32px;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Cabin", sans-serif;
   font-size: 14px;
   width: 180px;
   display: block;
@@ -617,7 +617,7 @@ code {
   background: rgba(0, 0, 0, 0.05);
   color: #445566;
   cursor: pointer;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Cabin", sans-serif;
   font-size: 12px;
   padding: 6px 10px;
   border-radius: 2px;

@@ -1,17 +1,17 @@
 h1, h2, h3, h4, h5, h6 {
-	font-family: $font_sans;
-	font-weight: 900;
+	font-family: $font_headlines;
+	font-weight: 400;
 	letter-spacing: -.025em;
 	margin: 0 0 $gap -1px;
 }
 
-h1 { font-size: 60px; }
-h2 { font-size: 42px; }
-h3 { font-size: 28px; }
-h4 { font-size: 20px; }
-h5 { font-size: 16px; }
+h1 { font-size: 40px; }
+h2 { font-size: 32px; }
+h3 { font-size: 24px; }
+h4 { font-size: 16px; }
+h5 { font-size: 12px; }
 h6 {
-	font-size: 12px;
+	font-size: 10px;
 	letter-spacing: .15em;
 	text-transform: uppercase;
 	em {
@@ -32,7 +32,7 @@ h6 {
     margin-bottom: $gap * 2;
     small {
         display: block;
-        font-family: $font_sans;
+        font-family: $font_body;
         color: $color_light;
 		font-size: 13px;
 		text-transform: uppercase;
@@ -65,7 +65,7 @@ section {
 
 article.content {
 	p {
-		font-family: $font_sans;
+		font-family: $font_body;
 		font-size: 18px;
 		line-height: $gap;
 		margin: 0 0 $gap;
@@ -178,7 +178,7 @@ article.content {
 	border-top: 1px solid rgba(0,0,0,.05);
 
 	h3 {
-		font-family: $font_sans;
+		font-family: $font_headlines;
 		font-size: 24px;
 		font-weight: 900;
 		margin: 0 0 5px;
@@ -186,7 +186,7 @@ article.content {
 	}
 
 	p {
-		font-family: $font_sans;
+		font-family: $font_body;
 		font-size: 18px;
 		line-height: 1.5;
 		font-weight: 300;
@@ -217,7 +217,7 @@ article.content {
 
 .meta {
 	color: $color_light;
-	font-family: $font_sans;
+	font-family: $font_body;
 	font-size: 12px;
 	margin: 0 0 ($gap * 2);
 

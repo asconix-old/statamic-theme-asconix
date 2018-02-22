@@ -1,6 +1,6 @@
 .regular {
 	padding: ($gap * 2) $gap / 2;
-	max-width: 700px + $gap;
+	max-width: 1400px + $gap;
 	margin: 0 auto;
 }
 
@@ -120,7 +120,7 @@ footer.page {
 	padding: ($gap * 2) 0;
 	text-align: center;
 	p.copyright {
-		font-family: $font_sans;
+		font-family: $font_body;
 		font-weight: 900;
 		font-size: 14px;
 	}
@@ -146,10 +146,10 @@ footer.page {
 
 .read-more {
     margin-top: $gap * 3;
-    font-family: $font_sans;
+    font-family: $font_body;
     text-align: center;
     display: block;
-    font-family: $font_sans;
+    font-family: $font_body;
     color: $color_light;
     font-size: 13px;
     text-transform: uppercase;

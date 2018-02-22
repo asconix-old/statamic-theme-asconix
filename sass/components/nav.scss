@@ -6,7 +6,7 @@
 
 	.nav {
 		color: $color_light;
-		font-family: $font_sans;
+		font-family: $font_body;
 		font-size: 12px;
 		overflow: hidden;
 	}
@@ -66,7 +66,7 @@
 
 	.search {
 		border-radius: $gap;
-		font-family: $font_sans;
+		font-family: $font_body;
 		font-size: 14px;
 		width: 180px;
 		display: block;
